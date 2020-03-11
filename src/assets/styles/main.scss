@@ -1,0 +1,16 @@
+@import "helpers/__grid";
+@import "helpers/__gui";
+@import "helpers/__fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

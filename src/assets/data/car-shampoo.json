@@ -1,0 +1,42 @@
+[
+        {
+            "id": "shampoo1",
+            "name": "Автошампунь Drive 1",
+            "image": "products/drive1.jpeg",
+            "price": "1400 руб.",
+            "description": "Для очищенной и водопроводной воды.",
+            "size": [{"sz": "20кг", "pr": "1400 руб."}]
+        },
+        {
+            "id": "shampoo2",
+            "name": "Автошампунь Drive 2",
+            "image": "products/drive2.jpeg",
+            "price": "1600 руб.",
+            "description": "Для очищенной и водопроводной воды.",
+            "size": [{"sz": "20кг", "pr": "1600 руб."}]
+        },
+        {
+            "id": "shampoo3",
+            "name": "Автошампунь Drive 3",
+            "image": "products/drive3.jpeg",
+            "price": "1800 руб.",
+            "description": "Для жесткой воды и для скважин.",
+            "size": [{"sz": "20кг", "pr": "1800 руб."}]
+        },
+        {
+            "id": "shampoo4",
+            "name": "Автошампунь Drive 4",
+            "image": "products/drive4.jpeg",
+            "price": "2000 руб.",
+            "description": "Для жесткой воды и для скважин.",
+            "size": [{"sz": "20кг", "pr": "2000 руб."}]
+        },
+        {
+            "id": "shampoo5",
+            "name": "Автошампунь Drive 5",
+            "image": "products/drive5.jpeg",
+            "price": "2200 руб.",
+            "description": "Для жесткой воды и для скважин.",
+            "size": [{"sz": "20кг", "pr": "2200 руб."}]
+        }
+    ]

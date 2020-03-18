@@ -1,0 +1,30 @@
+[
+    {
+        "id": "sgr1",
+        "name": "СГР OLD TRIED PARTNER",
+        "image": "docs/sgr.jpeg",
+        "description": "Свидетельство о государственной регистрации",
+        "link": "docs/sgr.jpeg"
+    },
+    {
+        "id": "tu1",
+        "name": "ТУ OLD TRIED PARTNER",
+        "image": "docs/TU.jpg",
+        "description": "Технические условия",
+        "link": "docs/TU.pdf"
+    },
+    {
+        "id": "price",
+        "name": "Прайс-лист",
+        "image": "docs/price.jpeg",
+        "description": "Розница",
+        "link": "docs/price.jpeg"
+    },
+    {
+        "id": "priceOpt",
+        "name": "Прайс-лист",
+        "image": "docs/opt.jpg",
+        "description": "ОПТ",
+        "link": "docs/opt.jpg"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "black1",
+        "name": "Чернитель резины силиконовый",
+        "image": "products/black5l.jpeg",
+        "price": "1600 руб.",
+        "description": "",
+        "size": [{"sz": "5л", "pr": "1600 руб."}]
+    },
+    {
+        "id": "black2",
+        "name": "Чернитель резины",
+        "image": "products/black4kg.jpeg",
+        "price": "900 руб.",
+        "description": "",
+        "size": [{"sz": "4кг", "pr": "900 руб."}]
+    }
+]

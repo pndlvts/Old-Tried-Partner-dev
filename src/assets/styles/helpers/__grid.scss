@@ -1,6 +1,6 @@
 $columns: 12; //кол-во колонок
 $atom: (100% / $columns); //ширина колонок
-$container: 1000px; //ширина контейнера
+$container: 1200px; //ширина контейнера
 //брейкпоинты
 $break_hd: 1920px;
 $break_xl: 1440px;
@@ -286,6 +286,11 @@ $fields_xs: 20px;
 
 @mixin to($max_width) {
   @media screen and (max-width: $max_width) {
+    @content;
+  }
+}
+@mixin to-xs() {
+  @media screen and (max-width: $break_xs - 1px) {
     @content;
   }
 }

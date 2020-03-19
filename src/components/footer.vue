@@ -15,10 +15,10 @@
                 <div class="footer__block">
                     <h2 class="footer__title footer__title-drop" data-drop="help" @click="drop">Помощь</h2>
                     <div class="footer__dropdown" data-list="help">
-                        <div class="footer__block-content"><a href="#!" class="footer__link">Как заказать</a></div>
-                        <div class="footer__block-content"><a href="#!" class="footer__link">Доставка</a></div>
-                        <div class="footer__block-content"><a href="#!" class="footer__link">Документы</a></div>
-                        <div class="footer__block-content"><a href="#!" class="footer__link">Оплата</a></div>
+                        <div class="footer__block-content"><a href="#/order" class="footer__link">Как заказать</a></div>
+                        <div class="footer__block-content"><a href="#/documents" class="footer__link">Документы</a></div>
+                        <div class="footer__block-content"><a href="#/delivery" class="footer__link">Доставка</a></div>
+                        <div class="footer__block-content"><a href="#/pay" class="footer__link">Оплата</a></div>
                     </div>
                 </div>
                 

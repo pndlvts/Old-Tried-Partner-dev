@@ -49,7 +49,7 @@
         },
         name: 'Order',
         components: {
-            footerComponent
+            footerComponent,
         }
     }
 </script>

@@ -29,7 +29,23 @@
                 <div class="footer__row">
                 <div class="footer__copyright">© 2019-2020 ИП Лазарев О. А.</div>
                 </div>
+                <div class="footer__marquee">
+                <span>
+                     Добро пожаловать в Old Tried Partner
+                </span>
+                <span>
+                     Добро пожаловать в Old Tried Partner
+                </span>
+                <span>
+                     Добро пожаловать в Old Tried Partner
+                </span>
+                <span>
+                     Добро пожаловать в Old Tried Partner
+                </span>
+            </div>
                 <div class="footer__creator">Создание сайта (SPA) – <a href="https://vk.com/pndlvts">Панделов Тимофей</a></div>
+                <div class="footer__creator">Тех. обслуживание – <a href="https://vk.com/pndlvts">Панделов Тимофей</a></div>
+                <div class="footer__creator">Дизайн сайта – <a href="https://vk.com/pndlvts">Панделов Тимофей</a></div>
             </div>
         </div>
     </footer>
@@ -38,6 +54,40 @@
 <style lang="scss" scoped>
     @import "../assets/styles/helpers/_gui";
     @import "../assets/styles/helpers/_grid";
+    @-webkit-keyframes scroll {
+        0% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+
+        100% {
+            -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0)
+        }
+    }
+
+    @-moz-keyframes scroll {
+        0% {
+            -moz-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+
+        100% {
+            -moz-transform: translate(-100%, 0);
+            transform: translate(-100%, 0)
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(-100%, 0)
+        }
+    }
+
     .footer{
         margin-top: 0px;
         min-height: 100px;
@@ -45,6 +95,22 @@
         text-align: left;
         padding-top: 50px;
         padding-bottom: 50px;
+        &__marquee {
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+
+            span {
+                display: inline-block;
+                padding-left: 20%;
+                -webkit-animation: scroll 15s infinite linear;
+                -moz-animation: scroll 15s infinite linear;
+                animation: scroll 15s infinite linear;
+                color: $white;
+            }
+        }
         &__container{
             @include container();
         }

@@ -46,6 +46,10 @@
         margin: 10px;
         border-radius: 5px;
         transition: .5s;
+        img{
+            filter: grayscale(1);
+            transition: 0.5s;
+        }
         &__sizeP{
             margin-top: 10px;
         }
@@ -92,6 +96,10 @@
     .doc:hover{
         box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
         transition: .5s;
+        img{
+            filter: grayscale(0);
+            transition: 0.5s;
+        }
     }
     .docs{
         padding-top: 75px;

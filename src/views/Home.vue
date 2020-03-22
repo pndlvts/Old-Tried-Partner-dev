@@ -5,6 +5,7 @@
                 <img class="welcome__banner" src="../assets/media/banner.jpeg" alt="">
                 <div class="welcome__container">
                     <div class="welcome__row">
+                        <div class="welcome__col">
                         <h1 class="welcome__title">Добро пожаловать в Old Tried Partner!</h1>
                         <p class="welcome__text">
                             У нас Вы можете приобрести автокосметику по низким ценам!
@@ -43,6 +44,7 @@
                                 Состав: Вода, эмульсионный воск, консервант, краситель. 
                             </p>
                     </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -63,6 +65,10 @@
 
         &__row {
             @include row-flex();
+        }
+        &__col{
+            @include col();
+            @include size(12);
         }
       &__title{
         width: 100%;

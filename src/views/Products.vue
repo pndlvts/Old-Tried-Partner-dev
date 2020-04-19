@@ -86,6 +86,35 @@
             </div>
             </div>
         </tab>
+        
+        <tab name="Стеклоомывающая жидкость">
+            <div class="products__list">
+            <div class="product" v-for="product in glasswash" v-bind:key="product.id">
+                <div class="product__image">
+                    <img v-bind:src=product.image>
+                </div>
+                <div class="product__name">
+                {{ product.name }}
+                </div>
+                <div class="product__description">
+                <p>
+                    {{ product.description }}
+                </p>
+                <p class="product__sizeP">
+                    Объем: 
+                    <span v-for="(s, index) in product.size" :key="index">
+                     <input class="product__sizeInp" type="radio" :id="product.id+'_'+index" :value="s.pr" :name="product.id" v-model="product.price"> 
+                     <label class="product__size" :for="product.id+'_'+index">{{ s.sz }}</label>
+                    </span>
+                </p>
+                <div class="product__price">
+                    {{ product.price }}
+                </div>
+                </div>
+            </div>
+            </div>
+        </tab>
+
         </div>
         </div>
         </tabs>
@@ -126,7 +155,7 @@
             border: 1px solid $company;
             padding: 5px;
             border-radius: 5px;
-            width: 20px;
+            width: auto;
             height: 20px;
             cursor: pointer;
         }
@@ -189,6 +218,9 @@
     }
     &__tabs{
         display: flex;
+        flex-wrap: wrap;
+        max-height: 65px;
+        overflow-y: scroll;
         padding: 10px;
         justify-content: center;
         align-items: center;
@@ -290,9 +322,10 @@
 
 <script>
     import footerComponent from '../components/footer.vue';
-    import shampoo from '../assets/data/car-shampoo.json';
-    import black from '../assets/data/black.json';
-    import vosk from '../assets/data/vosk.json';
+    import shampoo from '../../public/productsData/data/car-shampoo.json';
+    import black from '../../public/productsData/data/black.json';
+    import vosk from '../../public/productsData/data/vosk.json';
+    import glasswash from '../../public/productsData/data/glasswash.json';
     export default {
         metaInfo: {
         title: 'Old Tried Partner',
@@ -303,7 +336,8 @@
             return{
             carShampoo: shampoo,
             black: black,
-            vosk: vosk
+            vosk: vosk,
+            glasswash: glasswash
         }
         },
         components: {

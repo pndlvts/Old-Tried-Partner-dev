@@ -152,7 +152,7 @@
 <script>
     import footerComponent from '../components/footer.vue';
     import btnComponent from '../components/btnComponent.vue';
-    import docs from '../assets/data/docs.json';
+    import docs from '../../public/productsData/data/docs.json';
     export default {
         metaInfo: {
         title: 'Old Tried Partner',

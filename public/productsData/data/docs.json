@@ -26,5 +26,19 @@
         "image": "docs/opt.jpg",
         "description": "ОПТ",
         "link": "docs/opt.jpg"
+    },
+    {
+        "id": "windowsCleanerCert",
+        "name": "СГР",
+        "image": "docs/windowsCleaner.jpg",
+        "description": "для стеклоочищающего средства",
+        "link": "docs/windowsCleaner.jpg"
+    },
+    {
+        "id": "windowsCleanerLab",
+        "name": "Протокол лабораторных исследований",
+        "image": "docs/windowsCleanerLab.jpg",
+        "description": "(стеклоочищающее средство)",
+        "link": "docs/windowsCleanerLab.pdf"
     }
 ]

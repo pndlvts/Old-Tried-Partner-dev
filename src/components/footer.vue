@@ -3,13 +3,13 @@
         <div class="footer__wrapper">
             <div class="footer__container">
                 <div class="footer__row">
-                <div class="footer__block">
+                <div class="footer__block" itemscope itemtype="http://schema.org/Organization">
                     <h2 class="footer__title">Контакты</h2>
-                    <div class="footer__block-content"><span class="footer__text">ИП Лазарев Олег Анатольевич</span></div>
-                    <div class="footer__block-content"><span class="footer__text">Россия, Краснодарский край, г. Краснодар, ул. Российская 97, 350901</span></div>
-                    <div class="footer__block-content"><span class="footer__text">E-mail: </span><a href="mailto:lazarevcosmeticrus@mail.ru" class="footer__link">lazarevcosmeticrus@mail.ru</a></div>
-                    <div class="footer__block-content"><span class="footer__text">Тел.: </span><a href="tel:89952005218" class="footer__link">8 (995) 200-52-18</a></div>
-                    <div class="footer__block-content"><span class="footer__text">Тел.: </span><a href="tel:89086923218" class="footer__link">8 (908) 692-32-18</a></div>
+                    <div class="footer__block-content"><span class="footer__text" itemprop="name">ИП Лазарев Олег Анатольевич</span></div>
+                    <div class="footer__block-content" itemscope itemtype="http://schema.org/PostalAddress"><span class="footer__text"><span itemprop="addressCountry">Россия</span>, <span itemprop="addressRegion">Краснодарский край</span>, <span itemprop="addressLocality">г. Краснодар</span>, <span itemprop="streetAddress">ул. Российская 97</span>, <span itemprop="postalCode">350901</span></span></div>
+                    <div class="footer__block-content"><span class="footer__text">E-mail: </span><a href="mailto:lazarevcosmeticrus@mail.ru" class="footer__link" itemprop="email">lazarevcosmeticrus@mail.ru</a></div>
+                    <div class="footer__block-content"><span class="footer__text">Тел.: </span><a href="tel:89952005218" class="footer__link" itemprop="telephone">8 (995) 200-52-18</a></div>
+                    <div class="footer__block-content"><span class="footer__text">Тел.: </span><a href="tel:89086923218" class="footer__link" itemprop="telephone">8 (908) 692-32-18</a></div>
                 </div>
 
                 <div class="footer__block">

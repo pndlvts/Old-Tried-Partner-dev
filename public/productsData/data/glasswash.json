@@ -3,24 +3,24 @@
         "id": "glasswash1",
         "name": "Стеклоомывающая жидкость (зимняя)",
         "image": "products/glasswashWinter.jpg",
-        "price": "Договорная",
+        "price": "Цена договорная",
         "description": " ",
-        "size": [{"sz": "Договорной", "pr": "Договорная"}]
+        "size": [{"sz": "Договорной", "pr": "Цена договорная"}]
     },
     {
         "id": "glasswash2",
         "name": "Стеклоомывающая жидкость (лентяя)",
         "image": "products/glasswashSummer.jpg",
-        "price": "Договорная",
+        "price": "Цена договорная",
         "description": " ",
-        "size": [{"sz": "Договорной", "pr": "Договорная"}]
+        "size": [{"sz": "Договорной", "pr": "Цена договорная"}]
     },
     {
         "id": "glasswash3",
         "name": "Стеклоомывающая жидкость в евроканистре",
         "image": "products/glasswashEUR.jpg",
-        "price": "Договорная",
+        "price": "Цена договорная",
         "description": " ",
-        "size": [{"sz": "Договорной", "pr": "Договорная"}]
+        "size": [{"sz": "Договорной", "pr": "Цена договорная"}]
     }
 ]
